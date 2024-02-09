@@ -28,6 +28,7 @@ a{
 .banner{
     background-color:#d1e3ff;
     padding-bottom: 50px;
+    position: relative;
        
 }
 .banner_content{
@@ -117,32 +118,68 @@ margin: auto;
     vertical-align: middle;
     width: 100%;
 }
-
 .banner_materials{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
-    margin: auto;
+    padding-bottom: 100px;
+    position: absolute;
+    bottom: -118%;
+  /* margin: auto; */
 }
+
 .materials_one{
-    border: 1px solid white;
     background-color:#ff6600;
     margin: auto;
-    width: 20%;
-    /* padding: 50px 50px 30px 30px; */
-    height: 250px;
+    width: 28%;
+    height: 240px;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 39px;
+    color: #0355cc;
+}
+.materials_one svg{
+color: #0355cc !important;
+}
+.materials_one p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.materials_one:nth-child(1){
+    
+    background-color:#ffffff;
+    margin: auto;
+    width: 28%;
+    height: 240px;
+    border-radius: 2px;
+   box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.2);
 
 }
+.materials_one:nth-child(1):hover{
+    background-color:#ff6600;
+    transition: 0.2;
+}
+.materials_one:nth-child(3){
+   box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.2);
+    background-color:#ffffff;
+    margin: auto;
+    width: 28%;
+    height: 240px;
+    border-radius: 2px;
+}
+.materials_one:nth-child(3):hover{
+    background-color: #ff6600;
+}
+.material_image img{
+    color: #0355cc !important;
+}
+
 /* media query banner */
 @media screen and (max-width: 1024px){
     .banner_layout{
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around;  
-        align-items: center; 
-        width: 100%;
-        padding-top: 10px; */
         }
         
         .navbar_infos span{
@@ -167,7 +204,6 @@ margin: auto;
         } 
         .banner_call{
             width: 98%;
-            /* margin:auto; */
             justify-content: center;
             align-items: center;
             padding-top: 0;
@@ -177,11 +213,9 @@ margin: auto;
             text-align: center;
             font-size: 2rem;
             width: 100%;
-            /* font-family: 'Merriweather Sans', sans-serif; */
             }
             .banner_contact {
             margin-left: 60px;
-            /* width: 100%; */
             }
             .banner_image{
             width: 70%;
@@ -191,6 +225,14 @@ margin: auto;
             .banner_image img{
             vertical-align: middle;
                 width: 100%;
+            }
+            .banner_materials{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                /* bottom: -118%; */
+              /* margin: auto; */
             }
         
 };
