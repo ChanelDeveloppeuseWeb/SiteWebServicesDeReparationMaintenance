@@ -29,6 +29,7 @@ a{
     background-color:#d1e3ff;
     padding-bottom: 50px;
     position: relative;
+   
        
 }
 .banner_content{
@@ -137,7 +138,7 @@ margin: auto;
     border-radius: 2px;
     text-align: center;
     padding-top: 39px;
-    color: #0355cc;
+    color: #ffffff;
 }
 .materials_one svg{
 color: #0355cc !important;
@@ -154,6 +155,7 @@ color: #0355cc !important;
     height: 240px;
     border-radius: 2px;
    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.2);
+   color: #0355cc;
 
 }
 .materials_one:nth-child(1):hover{
@@ -167,12 +169,47 @@ color: #0355cc !important;
     width: 28%;
     height: 240px;
     border-radius: 2px;
+    color: #0355cc;
 }
 .materials_one:nth-child(3):hover{
     background-color: #ff6600;
 }
 .material_image img{
     color: #0355cc !important;
+}
+
+/* section about */
+.about{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+}
+.about_us{
+    width: 30%;
+    padding-top: 80px;
+}
+.about_us h1{
+    font-weight: bolder;
+}
+.about_us p{
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 15px;   
+    padding-bottom: 25px; 
+}
+.about_us a{
+    background-color: #0355cc;
+    color: #ffffff;
+    padding: 10px 25px;
+    /* margin-top: 50px; */
+}
+.about_image{
+    width: 58%;
+}
+.about_image img{
+    width: 100%;
+    margin: auto;
 }
 
 
@@ -217,11 +254,12 @@ color: #0355cc !important;
             }
             .banner_contact {
             margin-left: 60px;
+            /* margin-bottom: 18px; */
             }
             .banner_image{
             width: 70%;
             margin-top: 40px;
-            margin: auto;  
+            /* margin: auto;   */
             }
             .banner_image img{
             vertical-align: middle;
@@ -232,24 +270,24 @@ color: #0355cc !important;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                /* bottom: -118%; */
-              /* margin: auto; */
             }
             .materials_one{
-                
-                margin: auto;
+                margin-top: 18px;
                 width: 80%;
+                box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.2);
                 
             }
             .materials_one:nth-child(1){
-                margin: auto;
                 width: 80%;
+                margin-top: 18px;
+                
             }
             .materials_one:nth-child(3){
-                margin: auto;
                 width: 80%;
-            }
-        
+                margin-top: 18px;  
+            }  
+
+            /* section about */
 };
     
 
