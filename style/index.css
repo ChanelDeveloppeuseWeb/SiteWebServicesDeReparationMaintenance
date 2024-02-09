@@ -175,6 +175,7 @@ color: #0355cc !important;
     color: #0355cc !important;
 }
 
+
 /* media query banner */
 @media screen and (max-width: 1024px){
     .banner_layout{
@@ -233,6 +234,20 @@ color: #0355cc !important;
                 align-items: center;
                 /* bottom: -118%; */
               /* margin: auto; */
+            }
+            .materials_one{
+                
+                margin: auto;
+                width: 80%;
+                
+            }
+            .materials_one:nth-child(1){
+                margin: auto;
+                width: 80%;
+            }
+            .materials_one:nth-child(3){
+                margin: auto;
+                width: 80%;
             }
         
 };
