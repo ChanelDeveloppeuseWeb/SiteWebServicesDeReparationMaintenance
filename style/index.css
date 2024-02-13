@@ -193,6 +193,8 @@ color: #0355cc !important;
 }
 .about_us h1{
     font-weight: bolder;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 .about_us p{
     /* text-align: justify; */
@@ -244,6 +246,8 @@ color: #0355cc !important;
 .provide_text h1{
 color: #0355cc;
 font-size:2.5rem ;
+text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
 /* line-height: 1.5; */
 }
 .provide_text p{
@@ -260,6 +264,57 @@ padding: 10px 45px;
     border: 1px solid #ff8a1d;
     color: #ff8a1d;
 }
+
+
+/* end .provide */
+.title_services h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-top: 60px;
+}
+.our_services{
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.service_item{
+    background-color: #ffffff;
+    box-shadow: 6px 6px  25px rgba(0, 0, 0, 0.2);
+    width: 28%;
+    height: 230px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.service_item h1{ 
+    font-size: 20px;
+}
+.service_item p{
+    text-align: center;
+    line-height: 1.5;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media query banner */
 @media screen and (max-width: 1024px){
@@ -380,6 +435,7 @@ padding: 10px 45px;
             .about_image img{
                 width: 100%;
             }
+            
                 /* end about */
             .provide{
                 display: flex;
@@ -403,7 +459,6 @@ padding: 10px 45px;
             }
             .provide_text h1{
             text-align: center;
-            /* line-height: 1.5; */
             font-size: 25px;
             }
             .provide_text p{
@@ -417,7 +472,44 @@ padding: 10px 45px;
             margin-left: 70px;
             }
             
-
+            /* .our_services */
+            .title_services h1{
+                text-align: center;
+                font-weight: bold;
+                font-size: 2rem;
+                text-transform: uppercase;
+                font-family: 'Merriweather Sans', sans-serif;
+                padding-top: 60px;
+            }
+            .our_services{
+                display: flex;
+                flex-direction: column;
+                padding-top: 10px;
+                padding-bottom: 70px;
+                width: 100%;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .service_item{
+                background-color: #ffffff;
+                box-shadow: 6px 6px  25px rgba(0, 0, 0, 0.2);
+                width: 90%;
+                height: 230px;
+                text-align: center;
+                padding-top: 30px;
+                margin-top: 50px;
+            
+            }
+            .service_item h1{ 
+                font-size: 20px;
+            }
+            .service_item p{
+                text-align: center;
+                line-height: 1.5;
+                padding-left: 25px;
+                padding-right: 25px;
+            }
+        /* end .our_services */
 };
     
 
