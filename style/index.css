@@ -73,11 +73,11 @@ display: flex;
 justify-content: space-around;  
 align-items: center; 
 width: 100%;
-padding-top: 10px;
+padding-top: 200px;
 }
 .banner_call{
-padding-top: 50px;
-width: 40%;
+padding-top: 70px;
+width: 50%;
 margin: auto;
 }
 .banner_call h1{
@@ -111,7 +111,7 @@ text-transform: uppercase;
     color: #ff6600;
 }
 .banner_image{
-    width: 50%;
+width: 40%;
 margin: auto;
 
 }
@@ -131,7 +131,7 @@ margin: auto;
 }
 
 .materials_one{
-    background-color:#ff6600;
+    background-color:#ff8a1d;
     margin: auto;
     width: 28%;
     height: 240px;
@@ -180,13 +180,15 @@ color: #0355cc !important;
 
 /* section about */
 .about{
-    max-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     padding-top: 200px;
+    margin: auto;
+
 }
 .about_us{
-    width: 30%;
+    width: 40%;
     padding-top: 80px;
 }
 .about_us h1{
@@ -201,11 +203,16 @@ color: #0355cc !important;
 .about_us a{
     background-color: #0355cc;
     color: #ffffff;
-    padding: 10px 25px;
+    padding: 10px 35px;
     /* margin-top: 50px; */
 }
+.about_us a:hover{
+    background-color: #ffffff;
+    border: 1px solid #0355cc;
+    color: #0355cc;
+}
 .about_image{
-    width: 58%;
+    width: 50%;
 }
 .about_image img{
     width: 100%;
@@ -218,6 +225,7 @@ color: #0355cc !important;
     .banner_layout{
         display: flex;
         flex-direction: column;
+        padding-top: 0px;
         }
         
         .navbar_infos span{
@@ -241,7 +249,7 @@ color: #0355cc !important;
             margin-right: 5px;
         } 
         .banner_call{
-            width: 98%;
+            width: 90%;
             justify-content: center;
             align-items: center;
             padding-top: 0;
@@ -252,6 +260,7 @@ color: #0355cc !important;
             font-size: 2rem;
             width: 100%;
             }
+            
             .banner_contact {
             margin-left: 60px;
             /* margin-bottom: 18px; */
@@ -288,6 +297,47 @@ color: #0355cc !important;
             }  
 
             /* section about */
+
+            .about{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding-top: 900px;
+            
+            }
+            .about_us{
+                width: 90%;
+                padding-top: 80px;
+                margin: auto;
+            }
+            .about_us h1{
+                text-align: center;
+            }
+            .about_us p{
+                text-align: justify;
+                overflow: scroll;
+            }
+            .about_us a{
+                background-color: #0355cc;
+                color: #ffffff;
+                padding: 10px 35px;
+                margin-left: 90px;
+            }
+            .about_us a:hover{
+                background-color: #ffffff;
+                border: 1px solid #0355cc;
+                color: #0355cc;
+            }
+            .about_image{
+                width: 90%;
+                padding-top: 50px;
+                margin: auto;
+
+            }
+            .about_image img{
+                width: 100%;
+            }
+
 };
     
 
