@@ -685,8 +685,6 @@ justify-content: center;
                 margin-top: 18px;  
             } 
             
-            
-
             /* section about */
 
             .about{
@@ -873,7 +871,7 @@ justify-content: center;
             margin: auto;   
         }
         .contact_form:nth-child(2){
-            width: 98%;
+            width: 90%;
             margin: auto;
         }
         input{
@@ -897,12 +895,28 @@ justify-content: center;
             
         }
         .footer_layout{
-            display: none;
+            display: none!important;
         }
         .footer_foot{
-            display: none;
+            display: none!important;
         }
         .footer_band{
+            display: none!important;
+        }
+        .footer_text p{
+            margin-left: 0px;
+            display:none;
+        }
+        .footer_text:nth-child(1){
+            margin-left: 0px;    
+        }
+        .footer_text:nth-child(2){
+            margin-left: 0px;   
+        }
+        .links_layouts{
+            display: none;
+        }
+        .footer_item{
             display: none;
         }
 
