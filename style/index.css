@@ -9,8 +9,17 @@ body {
   margin: auto;
   padding: auto;
   overflow-x: hidden;
+  /* position: relative; */
 }
 
+*{
+    /* transition: all.2s linear; */
+}
+html{
+    /* font-size: 62.5%; */
+    /* scroll-behavior: smooth; */
+    /* scroll-padding-top: 7em; */
+}
 a{
 text-decoration: none !important;
 }
@@ -462,6 +471,10 @@ align-items: center;
 .contact_form:nth-child(2){
     width: 40%;
     margin: auto;
+    padding: 10px 20px;
+    /* margin-top: 15px; */
+    /* border: none; */
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.3);
 }
 .contact_form iframe{
     width: 100%;
@@ -605,9 +618,13 @@ justify-content: center;
 
 /* media query banner */
 @media screen and (max-width: 1024px){
+    .menu_toggle_span{
+        width: 35px;
+        background-color: #0355cc;
+        height: 5px;
+    }
     .navbar{
         display: flex;
-    
     }
     .navbar_infos{
         margin-left: 35px;
