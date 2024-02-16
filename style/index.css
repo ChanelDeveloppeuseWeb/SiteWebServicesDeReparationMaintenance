@@ -604,20 +604,8 @@ justify-content: center;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* media query banner */
-@media screen and (max-width: 1024px){
+@media all and (max-width: 1000px){
     .menu_toggle_span{
         width: 35px;
         background-color: #0355cc;
@@ -690,7 +678,7 @@ justify-content: center;
             .banner_materials{
                 width: 100%;
                 display: flex;
-                padding-bottom:15%;
+                padding-bottom:10%;
                 flex-direction: column;
                 align-items: center;
             }
