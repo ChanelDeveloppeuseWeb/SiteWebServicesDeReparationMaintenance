@@ -678,7 +678,8 @@ justify-content: center;
             .banner_materials{
                 width: 100%;
                 display: flex;
-                padding-bottom:10%;
+                padding-bottom:5%;
+                /* padding-top:5%; */
                 flex-direction: column;
                 align-items: center;
             }
@@ -704,7 +705,7 @@ justify-content: center;
                 width: 100%;
                 display: flex;
                 flex-direction: column;
-                padding-top: 900px;
+                padding-top: 500px;
             
             }
             .about_us{
