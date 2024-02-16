@@ -86,6 +86,7 @@ display: flex;
 justify-content: space-around;  
 align-items: center; 
 width: 100%;
+/* padding: 0 8%; */
 /* margin-left:100px;
 margin-right:100px; */
 /* padding-top:200px; */
@@ -426,7 +427,7 @@ align-items: center;
     margin-right: 50px;
 }
 .testimonial_directionLeft svg{
-    vertical-align: middle;
+    vertical-align: bottom!important;
 }
 .testimonial_directionRight{
     border: 1px solid #0355cc;
@@ -462,6 +463,9 @@ align-items: center;
     width: 40%;
     margin: auto;
 }
+.contact_form iframe{
+    width: 100%;
+}
 input{
     width: 70%;
     padding: 20px 45px;
@@ -491,7 +495,7 @@ button{
 width: 100%;
 color: #ffffff;
 background-color: #0a0f43;
-height: 450px;
+height:550px;
 }
 .footer_item{
     display: flex;
@@ -518,7 +522,7 @@ padding-bottom: 50px;
     align-items: center;   
     position: absolute;
     left: 290px;
-    bottom: -3869px;
+    bottom: -3859px;
 }
 .footer_layout{
     width: 80px;
@@ -551,7 +555,7 @@ padding-bottom: 50px;
     margin-left: 200px;
 }
 .footer_text:nth-child(1){
-    margin-left: 100px;
+    margin-left: 130px;
 }
 .footer_text:nth-child(2){
     margin-left: 100px;
@@ -575,10 +579,14 @@ justify-content: center;
 .copiryht_layout{
     text-align: center;
 }
-.copyright{
+.copyright {
     background-color: #ffffff;
     width: 70%;
+    /* width: 50%; */
     padding-top: 1px;
+    /* margin-top: 25px; */
+    /* position: relative; */
+    /* margin-bottom: 350px !important; */
 
 }
 
@@ -857,6 +865,7 @@ justify-content: center;
             width: 100%;
             display: flex;
             flex-direction: column;
+            padding-bottom: 30px;
             /* justify-content: space-around; */
         }
         .contact_title h1{
@@ -874,6 +883,8 @@ justify-content: center;
             width: 90%;
             margin: auto;
         }
+        
+        
         input{
             width: 70%;
             padding: 20px 45px;
@@ -919,6 +930,24 @@ justify-content: center;
         .footer_item{
             display: none;
         }
+        .footer{
+            width: 100%;
+            color: #ffffff;
+            background-color: #0a0f43;
+            height: 50px;
+         }
+         .footer h1{
+            display: none;
+         }
+         .footer_first{
+            display: none;
+         }
+         .copyright{
+            display: none;
+         }
+         .copiryht_layout p{
+            padding-top: 15px;
+         }
 
         
 };
